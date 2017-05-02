@@ -13,15 +13,16 @@ URxvt.font: xft:Terminus:bold:size=12
 *.cursorColor:  #ded5c1
 
 ! black
-*.color0:       #282a2e
+!*.color0:       #282a2e	doing this to hopefully fix vim colors
+*.color0:	#463a44
 *.color8:       #373b41
 
 ! red
 *.color1:       #a54242
-*.color9:       #cc6666
+*.color9:       #bb8d8f
 
 ! green
-*.color2:       #8c9440
+*.color2:       #96cd81
 *.color10:      #b5bd68
 
 ! yellow
@@ -42,4 +43,5 @@ URxvt.font: xft:Terminus:bold:size=12
 
 ! white
 *.color7:       #707880
-*.color15:      #c5c8c6
+! *.color15:      #c5c8c6
+*.color15:	#ded5c1

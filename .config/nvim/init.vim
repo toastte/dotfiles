@@ -13,6 +13,11 @@ endfunc
 nnoremap <C-n> :call NumberToggle()<cr>
 
 
+
+syntax on
+colorscheme noctu
+
+
 " NeoBundle Scripts-----------------------------
 if has('vim_starting')  
   set runtimepath+=~/.config/nvim/bundle/neobundle.vim/
