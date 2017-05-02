@@ -19,7 +19,7 @@ URxvt.font: xft:Terminus:bold:size=12
 
 ! red
 *.color1:       #a54242
-*.color9:       #bb8d8f
+*.color9:       #c06b64
 
 ! green
 *.color2:       #96cd81
