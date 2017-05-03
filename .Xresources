@@ -15,22 +15,22 @@ URxvt.font: xft:Terminus:bold:size=12
 ! black
 !*.color0:       #282a2e	doing this to hopefully fix vim colors
 *.color0:	#463a44
-*.color8:       #373b41
+*.color8:       #5c6470
 
 ! red
-*.color1:       #a54242
-*.color9:       #c06b64
+*.color1:       #cc716b
+*.color9:       #c97979
 
 ! green
 *.color2:       #96cd81
-*.color10:      #b5bd68
+*.color10:      #7cbf7c
 
 ! yellow
 *.color3:       #de935f
-*.color11:      #f0c674
+*.color11:      #cc8f66
 
 ! blue
-*.color4:       #5f819d
+*.color4:       #a3a3cc
 *.color12:      #81a2be
 
 ! magenta
