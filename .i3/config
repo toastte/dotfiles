@@ -203,7 +203,7 @@ gaps outer -2
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|0 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
-bindsym $mod+Shift+g mode "$mode_gaps"
+bindsym Mod1+Shift+g mode "$mode_gaps"
 
 mode "$mode_gaps" {
         bindsym o      mode "$mode_gaps_outer"
@@ -239,10 +239,10 @@ mode "$mode_gaps_outer" {
 }
 
 # class                 border  bground text    indicator child_border
-client.focused          #DED5C1 #463A44 #E3DAC9 #E3DAC9   #DED5C1
-client.focused_inactive #463A44 #463A44 #E3DAC9 #463A44   #DED5C1
-client.unfocused        #463A44 #463A44 #E3DAC9 #463A44   #DED5C1
-client.urgent           #DE986F #463A44 #E3DAC9 #DE986F   #DED5C1
+client.focused          #DED5C1 #463A44 #DED5C1 #DED5C1   #DED5C1
+client.focused_inactive #463A44 #463A44 #DED5C1 #DED5C1   #DED5C1
+client.unfocused        #DED5C1 #463A44 #DED5C1 #DED5C1   #DED5C1
+client.urgent           #DE986F #463A44 #DED5C1 #DED5C1   #DED5C1
 client.placeholder      #000000 #0C0C0C #FFFFFF #000000   #0C0C0C
 
 client.background       #463A44
