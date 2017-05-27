@@ -1,3 +1,25 @@
+"set line numbers to relative on default
+set relativenumber
+
+"tab stuff
+set tabstop=4
+set softtabstop=4
+
+"history
+set history=500
+
+"so I can see current position
+set ruler
+
+"searching stuff
+set ignorecase
+set smartcase
+set hlsearch
+set incsearch
+
+"brackets
+set showmatch 
+set mat=2
 
 "intelligent line numbers
 function! NumberToggle()
